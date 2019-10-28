@@ -7,6 +7,6 @@
         <h1>Today</h1>
         <% today = DateTime.now %>
         <% parsed = today.strftime("%A, %B %-d, %Y")%>
-        <p><%= "The date is #{parsed}."%></p>
+        <p>The date is <%= parsed %>.</p>
     </body>
 </html>
