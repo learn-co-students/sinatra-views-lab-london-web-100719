@@ -1,3 +1,4 @@
-<h1>The date is</h1>
-<% date = DateTime.now %>
-<p><%=date.strftime("%A") + ", " + date.strftime("%B") + " " + date.day.to_s + ", " + date.year.to_s%></p>
+<h1>
+<% date = DateTime.now %> 
+<%= "The date is " + date.strftime("%A, %B %d, %Y") %>
+</h1>
